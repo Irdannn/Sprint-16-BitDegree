@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<%- include('./partials/header.ejs') %>
+	<body>
+		<%- include('./partials/navbar.ejs') %>
+
+		<h2>My FAVORITE quotes!</h1>
+		<!-- &#129315; -->
+		<br />
+		<section id="index-display">
+			<% if (quotes.length > 0) { %> <% quotes.forEach(element => {%>
+			<a class="single" href="/quotes/<%= element._id %>">
+				<h3 class="title">~ <%= element.author %></p>
+				<p class="snippet"><%= element.snippet %></p>
+			</a>
+			<% }) %> <% } else { %>
+			<p>There are currently no quotes to display ...</p>
+			<% } %>
+		</section>
+		<%- include('./partials/footer.ejs') %>
+	</body>
+</html>

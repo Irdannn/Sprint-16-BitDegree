@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <%- include('./partials/header.ejs') %>
+  <body>
+    <%- include('./partials/navbar.ejs') %>
+    <div class="content">Create a Quote logic TBD</div>
+    <div class="create-quote content">
+      <form action="/quotes" method="POST">
+        <label for="author">Quote author:</label>
+        <input type="text" id="author" name="author" required />
+        <label for="snippet">Quote synopsis:</label>
+        <input type="text" id="snippet" name="snippet" required />
+        <label for="body">Quote body:</label>
+        <input type="text" id="body" name="body" required />
+        <button>Submit</button>
+      </form>
+    </div>
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>

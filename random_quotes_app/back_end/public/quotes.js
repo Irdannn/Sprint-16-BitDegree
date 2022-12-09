@@ -1,6 +1,4 @@
-"use strict";
-
-const quotesJackHandey = [
+export const quotesJackHandey = [
     "If you go flying back through time, and you see somebody else flying forward into the future, it's probably best to avoid eye contact.",
     "If I ever get real rich, I hope I'm not real mean to poor people, like I am now.",
     "If trees could scream, would we be so cavalier about cutting them down? We might, if they screamed all the time, for no good reason.",
@@ -12,4 +10,6 @@ const quotesJackHandey = [
     "Do you know what happens when you slice a golf ball in half? Someone gets mad at you. I found this out the hard way",
     "I hope if dogs ever take over the world, and they chose a king, they don't just go by size, because I bet there are some Chihuahuas with some good ideas.",
     "If you ever drop your keys into a river of molten lava, let 'em go, because man, they're gone."
-];
+]
+
+// added instead of json

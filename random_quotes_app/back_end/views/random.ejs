@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<%- include('./partials/header.ejs') %>
+	<body>
+		<%- include('./partials/navbar.ejs') %>
+		<!-- <h1>A great quote generator will go here soon ...</h1> -->
+		<h1>A great quote generator will go here soon ...</h1>
+		<div id="quoteDisplayField"></div>
+		<button onclick="randomQuote(onclick)">Click me for a quote!</button>
+			<!-- Change the above to a back-end route -->
+		<%- include('./partials/footer.ejs') %>
+		<script src="/back_end/public/assets/random.js"></script>
+	</body>
+</html>
